@@ -6,6 +6,6 @@ script:
 deploy:
   # deploy master to production
   provider: script
-  script: fab -H 159.65.200.222 deploy -p $SSH_PASS
+  script: fab -H xn--80aa1ab0e.xn--p1ai deploy -p $SSH_PASS
   on:
     branch: master
